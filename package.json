@@ -1,0 +1,29 @@
+{
+  "name": "dokku-gen",
+  "version": "0.1.0",
+  "description": "Utility module to generate dokku configuration for a docker container. Use this on your server as an alternative to git pushing to dokku remote. Handy for using dokku to front custom docker containers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/johnfriz/dokku-gen.git"
+  },
+  "keywords": [
+    "dokku",
+    "docker",
+    "generator",
+    "nginx"
+  ],
+  "author": "John Frizelle <johnfriz@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/johnfriz/dokku-gen/issues"
+  },
+  "homepage": "https://github.com/johnfriz/dokku-gen",
+  "dependencies": {
+    "mustache": "^0.8.2",
+    "minimist": "^1.1.0"
+  }
+}
