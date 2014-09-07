@@ -40,7 +40,7 @@ function validateArgs() {
 function prepareTemplateParams() {
   
   var vhostFile = path.join(dokkuPath, 'VHOST');
-  vhost = fs.readFileSync(vhostFile {encoding:'utf-8'});
+  vhost = fs.readFileSync(vhostFile, {encoding:'utf-8'});
   
   templateParams = {
     name: argv.name,
